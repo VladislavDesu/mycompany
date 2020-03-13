@@ -195,8 +195,8 @@ body > div:nth-child(even) {
   display: inline-block;
   list-style: none;
   width: 255px;
-  height: 305px;
-  margin-right: 37px;
+  height: 255px;
+  margin-right: 50px;
 }
 
 .our-team li:last-child {
@@ -266,10 +266,14 @@ body > div:nth-child(even) {
 .our-services li {
   position: relative;
   list-style: none;
-  margin-right: 40px;
+  margin-right: 50px;
   display: inline-block;
   width: 255px;
   height: 255px;
+}
+
+.our-services li:last-child {
+  margin-right: 0;
 }
 
 .our-services-img {
@@ -316,4 +320,113 @@ body > div:nth-child(even) {
   color: #111;
   margin-top: 155px;
   margin-bottom: 20px;
+}
+
+/*OUR CLIENTS*/
+.our-clients {
+  height: 415px;
+  padding-top: 100px;
+}
+
+.our-clients h2{
+  position: relative;
+  font-size: 44px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 145px;
+}
+
+.our-clients h2 span {
+  font-weight: normal;
+}
+
+.our-clients h2::before {
+  content: '';
+  position: absolute;
+  background-color: #fcac45;
+  bottom: -35px;
+  left: 45%;
+  width: 100px;
+  height: 4px;
+}
+
+.our-clients li {
+  display: inline-block;
+  list-style: none;
+  font-size: 0;
+}
+
+.our-clients .icon-clients {
+  width: 170px;
+  height: 30px;
+  background-image: url('../img/spritesheet_clients.png');
+  background-repeat: no-repeat;
+  margin-right: 25px;
+}
+
+.icon-clients:first-child {
+  margin-left: 105px;
+}
+
+.icon-clients:last-child {
+  margin-right: 0;
+}
+
+.chanel {
+  background-position: -8px -192px;
+}
+
+.zara {
+  background-position: -8px -50px;
+}
+
+.guerlain {
+  background-position: -8px -146px;
+}
+
+.lancome {
+  background-position: -8px -98px;
+}
+
+.lacoste {
+  background-position: -8px -8px;
+}
+
+/*OUR WORK*/
+.our-work {
+  height: 1335px;
+  padding-top: 100px;
+}
+
+.our-work h2 {
+  position: relative;
+  font-size: 44px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.our-work h2 span {
+  font-weight: normal;
+}
+
+.our-work h2::before {
+  content: '';
+  position: absolute;
+  background-color: #fcac45;
+  bottom: -35px;
+  left: 45%;
+  width: 100px;
+  height: 4px;
+}
+
+.our-work p {
+  text-align: center;
+  font-size: 16px;
+  color: #6c6c6c;
+}
+
+.our-work h2 + p {
+  margin-bottom: 100px;
 }
