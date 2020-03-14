@@ -11,17 +11,18 @@
   </head>
 
   <body>
-    <!--HEADER-->
+
+<!--HEADER-->
     <div class="header-page">
 
       <div class="header-top">
 
         <p class='header-logo'>mycompany</p>
 
-        <ul class="header-nav">
+        <ul class="header-nav inline-block-list">
 
           <li><a href="index.html">home</a></li>
-          <li><a  href='#about'>about</a></li>
+          <li><a href='#about'>about</a></li>
           <li><a href="#services">services</a></li>
           <li><a href="#portfolio">portfolio</a></li>
           <li><a href="#testimonials">testimonials</a></li>
@@ -42,7 +43,7 @@
 
     </div>
 
-    <!--ABOUT US-->
+<!--ABOUT US-->
     <div class="about-us" id='about'>
 
       <div class="container">
@@ -75,14 +76,14 @@
 
     </div>
 
-    <!--OUR TEAM-->
+<!--OUR TEAM-->
     <div class="our-team">
 
       <div class="container">
 
-        <h2>our team</h2>
+        <h2 class='article-title'>our team</h2>
 
-        <ul>
+        <ul class="inline-block-list">
           <li>
 
             <div class="our-team-img"></div>
@@ -127,14 +128,14 @@
 
     </div>
 
-    <!--OUR SERVICES-->
+<!--OUR SERVICES-->
     <div class="our-services" id='services'>
 
       <div class="container">
 
-        <h2>our services</h2>
+        <h2 class='article-title'>our services</h2>
 
-        <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <p class="article-page"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Doloribus ex quidem maiores ullam quis,
           at asperiores minus ad eaque maxime possimus cum ab iusto assumenda
           velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet,
@@ -142,7 +143,7 @@
           at asperiores minus ad eaque maxime possimus cum ab iusto assumenda
           velit excepturi porro ipsa tenetur.</em></p>
 
-          <ul>
+          <ul class="inline-block-list">
 
             <li>
 
@@ -193,20 +194,20 @@
       </div>
 
     </div>
-
+<!--OUR CLIENTS-->
     <div class="our-clients">
 
       <div class="container">
 
-        <h2><span>Some of</span> our clients</h2>
+        <h2 class='article-title'><span>Some of</span> our clients</h2>
 
-        <ul>
+        <ul class="inline-block-list">
 
-          <li class='icon-clients chanel'>Chanel</li>
-          <li class='icon-clients zara'>Zara</li>
-          <li class='icon-clients guerlain'>Guerlain</li>
-          <li class='icon-clients lancome'>Lancome</li>
-          <li class='icon-clients lacoste'>Lacoste</li>
+          <li class='icon-clients chanel'></li>
+          <li class='icon-clients zara'></li>
+          <li class='icon-clients guerlain'></li>
+          <li class='icon-clients lancome'></li>
+          <li class='icon-clients lacoste'></li>
 
         </ul>
 
@@ -214,19 +215,125 @@
 
     </div>
 
+<!--OUR WORK-->
     <div class="our-work" id="portfolio">
 
       <div class="container">
 
-        <h2><span>Take a look at</span> our work</h2>
-        <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <h2 class='article-title'><span>Take a look at</span> our work</h2>
+
+        <p class="article-page"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Doloribus ex quidem maiores ullam quis,
           at asperiores minus ad eaque maxime possimus cum ab iusto assumenda
           velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet,
           consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis,
           at asperiores minus ad eaque maxime possimus cum ab iusto assumenda
           velit excepturi porro ipsa tenetur.</em></p>
-          
+
+          <ul class="inline-block-list">
+
+            <li class="img-work1"></li>
+            <li class="img-work1"></li>
+            <li class="img-work1"></li>
+            <li class="img-work1"></li>
+            <li class="img-work2"></li>
+            <li class="img-work2"></li>
+            <li class="img-work2"></li>
+            <li class="img-work2"></li>
+            <li class="img-work3"></li>
+            <li class="img-work3"></li>
+            <li class="img-work3"></li>
+            <li class="img-work3"></li>
+
+          </ul>
+
+      </div>
+
+    </div>
+
+<!--OUR TESTIMONIALS-->
+    <div class="testimonials" id="testimonials">
+
+      <div class="container">
+
+        <h2 class='article-title'>Our clients' <span>testimonials</span></h2>
+
+        <blockquote>
+
+          <p class="block-quote">This book is a treatise on the theory of ethics, very popular during the Renaissance.
+             The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+             comes from a line in section 1.10.32.</p>
+          <p class="quote"><span>Dean Martin,</span> CEO Acme Inc.</p>
+
+        </blockquote>
+
+      </div>
+
+    </div>
+
+<!--OUR CONTACT-->
+    <div class="contact-us" id="contact">
+
+      <div class="container">
+
+        <h2 class="article-title">Contact us</h2>
+
+        <p class="article-page"><em>Lorem ipsum dolor sit amet,
+           consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis,
+            at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit
+            excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet,
+             consectetur adipisicing elit.</em></p>
+
+        <form class="contact-us-form" action="index.html" method="post">
+
+          <div class="form-name-address clearfix">
+
+            <div class="form-name">
+
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required>
+
+            </div>
+
+            <div class="form-address">
+
+              <label for="address">Email address</label>
+              <input type="text" name="address" id="address" required>
+
+            </div>
+
+          </div>
+
+          <div class="form-message">
+
+            <label for="message">Message</label>
+            <textarea name="name" id='message'></textarea>
+
+          </div>
+
+          <input type="submit" name="" value="send">
+
+        </form>
+
+      </div>
+
+    </div>
+
+<!--OUR FOOTERS-->
+    <div class="footer-page">
+
+      <div class="container">
+
+        <ul class="inline-block-list">
+
+          <li><a href="index.html" class="social-icon icon-fb"></a></li>
+          <li><a href="index.html" class="social-icon icon-tw"></a></li>
+          <li><a href="index.html" class="social-icon icon-gp"></a></li>
+          <li><a href="index.html" class="social-icon icon-in"></a></li>
+          <li><a href="index.html" class="social-icon icon-bo"></a></li>
+
+        </ul>
+
       </div>
 
     </div>
